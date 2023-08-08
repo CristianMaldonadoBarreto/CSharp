@@ -4,6 +4,7 @@ namespace Algorithms
 {
     public static class SortingAlgorithms
     {
+        //Stopwatch to measure time complexity.
         static Stopwatch stopwatch = new Stopwatch();
 
         public static List<T> Merge_Sort<T>(List<T> arr)
